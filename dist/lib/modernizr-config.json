@@ -1,0 +1,16 @@
+{
+  "minify": true,
+  "options": [
+    "setClasses"
+  ],
+  "feature-detects": [
+    "test/css/animations",
+    "test/css/backgroundposition-xy",
+    "test/css/borderradius",
+    "test/css/boxshadow",
+    "test/css/columns",
+    "test/css/displaytable",
+    "test/css/flexbox",
+    "test/css/transitions"
+  ]
+}
