@@ -1,0 +1,18 @@
+/*=========================
+    BS - form-control / input/textarea tags
+===========================*/
+
+.form-control {
+    border-radius: 4px;
+    height: 48px;
+    border-color: $mid-grey;
+    color: $dark;
+    box-shadow: none;
+    background: $light-grey;
+    font-weight: 400;
+
+    &:focus {
+        border-color: $mid-grey;
+        box-shadow: none;
+    }
+}

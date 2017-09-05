@@ -1,0 +1,28 @@
+.theme-default {
+    color: $dark-grey;
+
+    .bg-light-grey {
+        background: $light-grey;
+    }
+
+    .bg-dark {
+        background: $dark;
+    }
+
+    h6.subtitle {
+        color: $primary-color;
+    }
+
+    .widget {
+        h5 {
+            color: $primary-color;
+        }
+    }
+
+    .statistics-section__content__result {
+        h3 {
+            color: $primary-color;
+        }
+    }
+
+}
