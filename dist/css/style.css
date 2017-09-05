@@ -5895,6 +5895,10 @@ a {
   font-weight: 600;
   color: inherit; }
 
+.container {
+  width: 100%;
+  max-width: 1000px; }
+
 /*====================
     BS - Btn Primary 
 ======================*/
@@ -5941,6 +5945,28 @@ a {
   display: block;
   width: 100%; }
 
+/*================================
+        HEADER NAVBAR
+==================================*/
+header .navbar {
+  border: transparent;
+  background: transparent; }
+  header .navbar li {
+    padding: 10px 2px; }
+  header .navbar a {
+    padding: 10px 15px;
+    transition: color 0.25s; }
+
+header .navbar-default .navbar-nav > .active > a {
+  color: #316bf5;
+  background: transparent; }
+  header .navbar-default .navbar-nav > .active > a:hover {
+    color: #316bf5;
+    background: transparent; }
+
+header .navbar-default .navbar-nav > li > a:hover {
+  color: #316bf5; }
+
 /*=========================
     BS - form-control / input/textarea tags
 ===========================*/
@@ -5975,6 +6001,11 @@ footer {
 
 .section-contact {
   padding: 120px 0; }
+
+header.page-header {
+  padding: 0;
+  margin: 0;
+  border: none; }
 
 .theme-default {
   color: #686868; }

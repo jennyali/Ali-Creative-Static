@@ -1,0 +1,35 @@
+
+/*================================
+        HEADER NAVBAR
+==================================*/
+
+header {
+    .navbar {
+        border: transparent;
+        background: transparent;
+
+        li {
+            padding: 10px 2px;
+        }
+
+        a {
+            padding: 10px 15px;
+            transition: color 0.25s;
+        }
+    }
+
+    .navbar-default .navbar-nav > .active > a {
+        color: $primary-color;
+        background: transparent;
+
+        &:hover {
+            color: $primary-color;
+            background: transparent;
+        }
+    }
+
+    .navbar-default .navbar-nav > li > a:hover { 
+        color: $primary-color;
+    }
+
+}
